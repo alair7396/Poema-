@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alterado para flex-start para começar mais no topo */
+    min-height: 100vh; /* Alterado para min-height */
+    background-image: url('espaço.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px; /* Mantém o espaço no topo */
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 0; /* Removido o margem superior para evitar o corte */
+}
+
+.poem-title {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.poem p {
+    font-size: 1.3em;
+    color: #f0f0f0;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+audio {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
